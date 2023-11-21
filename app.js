@@ -6,7 +6,7 @@ const Blog = require('./models/blogSchema')
 //express app
 const app = express();
 const db =
-'mongodb+srv://omosanyinferanmi:feranmi4christ1@cluster0.uc4s0eq.mongodb.net/Node?retryWrites=true&w=majority';
+'mongodb+srv://****:*****@cluster0.uc4s0eq.mongodb.net/Node?retryWrites=true&w=majority';
 
 mongoose.connect(db)
 .then((result) =>{
